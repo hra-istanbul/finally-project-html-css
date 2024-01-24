@@ -1,0 +1,83 @@
+@media only screen and (max-width:1356px) {
+    .hero-first-section>p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+
+    .hero-first-section>h1 {
+        font-size: 2.5rem;
+    }
+
+
+    .point p {
+        font-size: 1.60rem;
+    }
+
+    .point span {
+        font-size: 1.25rem;
+    }
+}
+
+
+/* TABLET  CODES START */
+@media only screen and (max-width:992px) {
+
+    /* HEADER RESPONSIVE CODES START */
+    .header-item-list {
+        display: none;
+    }
+
+    .burger-icon {
+        display: flex;
+    }
+
+    /* HEADER RESPONSIVE CODES END */
+
+
+    /* SECTION HERO  RESPONSIVE CODES START */
+
+    .hero-first-section>h1 {
+        font-size: 2.375rem;
+    }
+
+    .hero-first-section>p {
+        width: 100%;
+    }
+
+    /* SECTION HERO  RESPONSIVE CODES END */
+
+    /* SECTION TRENDING COLLECTION RESPONSIVE CODES START */
+    .mobile {
+        display: none;
+    }
+
+    .collection-card {
+        width: 47%;
+    }
+
+    .section-trending-collection>h2 {
+        font-size: 1.75rem;
+    }
+
+    .section-trending-collection>p {
+        font-size: 1rem;
+    }
+
+    /* SECTION TRENDING COLLECTION RESPONSIVE CODES END */
+
+
+    /* SECTION TOP CREATORS RESPONSIVE CODES START */
+    .section-top-creators>h2 {
+        font-size: 1.75rem;
+    }
+
+    .section-top-creators div>p {
+        font-size: 1rem;
+        width: 50%;
+        line-height: 22px;
+    }
+    
+    /* SECTION TOP CREATORS RESPONSIVE CODES END */
+}

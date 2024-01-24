@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    /* width: 85%; */
+    width: 70%;
+    margin: auto;
+}
+
+body{
+    background-color: #2B2B2B;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+@font-face {
+    font-family: WorkSansRegular;
+    src: url(../font/WorkSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: WorkSansMedium ;
+    src: url(../font/WorkSans-Medium.ttf);
+}
+
+@font-face {
+    font-family:SpaceMonoRegular ;
+    src: url(../font/SpaceMono-Regular.ttf);
+}
