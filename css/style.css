@@ -65,12 +65,13 @@
 .hero-section {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     padding: 80px 0px;
 }
 
 .hero-first-section {
-    width: 42%;
+    /* width: 42%; */
+    width: 50%;
 }
 
 .hero-first-section>h1 {
@@ -93,7 +94,8 @@
     padding: 20px 35px;
     display: inline-block;
     border-radius: 10px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    margin-top: 20px;
     color: #fff;
     font-family: WorkSansMedium;
 }
@@ -102,7 +104,8 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    margin-top: 20px;
 }
 
 .point p {
@@ -117,10 +120,19 @@
     font-family: WorkSansRegular;
 }
 
+
 .hero-second-section {
     width: 50%;
+    /* margin-left: 60px; */
+    margin-left: 30px;
+    position: relative;
 }
 
+.hero-second-image {
+    width: 516px;
+    height: 400px;
+    /* position: relative; */
+}
 
 .hero-second-section img {
     width: 100%;
@@ -128,7 +140,7 @@
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     object-fit: cover;
-    display: flex;
+    /* display: flex; */
 }
 
 .card-info {
@@ -137,6 +149,9 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 20px 20px;
+    width: 516px;
+    height: 109px;
+    position: absolute;
 }
 
 .user-info {
@@ -175,6 +190,7 @@
     /* padding: 80px 70px; */
     /* padding: 40px 80px 0px 80px; */
     margin-bottom: 40px;
+    margin-top: 80px;
 }
 
 .section-trending-collection>h2 {
@@ -324,13 +340,14 @@
 /* START TOP CREATOR AVATARS */
 
 .artist-card {
-    /* display: flex;
-    justify-content: space-evenly; */
+    /* display: flex; */
+    /* justify-content: space-evenly;  */
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 30px 0px;
-    justify-content: space-around;
+    /* justify-content: space-around;  */
     /* padding: 0px 50px 50px ; */
+
 }
 
 .artist-card-details {
@@ -339,21 +356,25 @@
     background-color: #3B3B3B;
     border-radius: 20px;
     padding: 20px 20px;
+    position: relative;
 }
 
 .number-artists {
-    display: inline-block;
+    position: absolute;
+    text-align: center;
     background-color: #2B2B2B;
     color: #858584;
     border-radius: 100%;
-    padding: 4px 10px;
+    width: 30px;
+    height: 30px;
+    padding: 2px 0px;
     font-family: SpaceMonoRegular;
 
 }
 
 .artist-img {
-    /* width: 120px; */
     text-align: center;
+    margin-bottom: 20px;
 
 }
 
@@ -435,9 +456,9 @@
 
 }
 
-.category-card-details {
+/* .category-card-details {
     overflow: hidden;
-}
+} */
 
 .category-card-image {
     border-radius: 20px 20px 0px 0px
@@ -535,6 +556,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0px 0px 80px 0px;
+    /* display: none; */
 }
 
 .image-placeholder {
@@ -616,11 +638,16 @@
     width: 100%;
     height: 720px;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     object-fit: cover;
     background-size: cover;
     display: flex;
     align-items: flex-end;
     padding: 40px 90px;
+}
+
+.background-linear {
+    background: linear-gradient(180deg, rgba(162, 89, 255, 0.00) 0%, #A259FF 100%);
 }
 
 /* BG IMAGE CODES  */
@@ -751,6 +778,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0px 0px 80px 0px;
+
 }
 
 .how-it-works-card-details {
@@ -764,12 +792,11 @@
 .card-image {
     display: flex;
     justify-content: center;
-    /* margin-bottom: 60px; */
 }
 
 .card-image>img {
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
 }
 
 .card-text {
@@ -839,17 +866,21 @@
 /* START WIDGET INPUT */
 .input-box {
     width: 90%;
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
+    position: relative;
     border-radius: 20px;
     height: 60px;
-    padding-left: 20px;
-    margin-top: 30px;
+    /* padding-left: 20px;
+    margin-top: 30px; */
+    padding: 22px 22px;
     background-color: #fff;
+    margin-top: 30px;
 }
 
 .input-for-email {
+    position: absolute;
     width: 50%;
     border: none;
     outline: none;
@@ -862,11 +893,14 @@ input::placeholder {
 }
 
 .input-box>a {
+    position: absolute;
     background-color: #A259FF;
     border-radius: 20px;
     padding: 21px 50px;
     font-family: WorkSansRegular;
     color: #fff;
+    left: 53.2%;
+    top: 0;
 }
 
 .input-box a>i {
@@ -881,7 +915,8 @@ input::placeholder {
 /* START FOOTER HOME-PAGE CODES */
 footer {
     background-color: #3B3B3B;
-    padding: 40px 40px;
+    /* padding: 40px 40px; */
+    padding: 40px 0px;
 }
 
 .marketplace {
@@ -947,34 +982,39 @@ footer {
     font-size: 1rem;
 }
 
+.subscribe {
+    width: 40%;
+}
 
-.subscribe>h4{
+.subscribe>h4 {
     font-family: SpaceMonoRegular;
     color: #fff;
     font-size: 1.25rem;
     margin-bottom: 30px;
 }
 
-.subscribe>p{
+.subscribe>p {
     color: #858584;
     font-size: 1rem;
     font-family: WorkSansRegular;
     margin-bottom: 20px;
 }
 
-.footer-input{
+.footer-input {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /* display: flex; */
+    /* justify-content: space-between;
+    align-items: center; */
+    position: relative;
     border-radius: 20px;
     height: 60px;
-    padding-left: 20px;
+    padding: 23px 20px;
     margin-top: 30px;
     background-color: #fff;
 }
 
 .footer-input-email {
+    position: absolute;
     width: 50%;
     border: none;
     outline: none;
@@ -987,28 +1027,20 @@ input::placeholder {
 }
 
 .footer-input>a {
+    position: absolute;
     background-color: #A259FF;
     border-radius: 20px;
     padding: 21px 50px;
     font-family: WorkSansRegular;
     color: #fff;
+    left: 253px;
+    top: 0;
 }
 
 .footer-input a>i {
     color: #fff;
     margin-right: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .line {
     width: 100%;
@@ -1022,3 +1054,210 @@ input::placeholder {
     font-family: WorkSansRegular;
     font-size: 12px;
 }
+
+.form-for-login {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-for-login>a {
+    text-align: center;
+    background-color: #A259FF;
+    /* padding: 20px 50px; */
+    padding: 15px 110px;
+    color: #fff;
+    font-family: WorkSansRegular;
+    border-radius: 20px;
+    margin-top: 30px;
+
+}
+
+.input-for-login {
+    border: none;
+    outline: none;
+    padding: 16px 20px;
+    border-radius: 20px;
+    width: 85%;
+    height: 46px;
+    margin-bottom: 15px;
+}
+
+
+/* END FOOTER HOME-PAGE CODES */
+
+/* ******************************************************************************************************************************************** */
+/* ******************************************************************************************************************************************** */
+/* ****************************************************CREATE ACCOUNT PAGE********************************************************************* */
+
+/* START CREATE ACCOUNT PAGE CODES */
+
+.section-create-account {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.create-acc-image-placeholder {
+    width: 680px;
+    height: 700px;
+    margin-right: 80px;
+}
+
+.create-acc-image-placeholder>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.create-account-item {
+    margin-left: 80px;
+}
+
+.create-account-item>h1 {
+    color: #fff;
+    font-size: 3.188rem;
+    font-family: WorkSansRegular;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.create-account-item>p {
+    color: #fff;
+    font-size: 22px;
+    font-family: WorkSansRegular;
+    line-height: 35px;
+    margin-bottom: 40px;
+}
+
+/* END CREATE ACCOUNT PAGE CODES */
+
+
+
+/* ******************************************************************************************************************************************** */
+/* ******************************************************************************************************************************************** */
+/* ****************************************************CONNECT WALLET PAGE********************************************************************* */
+
+/* START CONNECT WALLET SECTION CODES */
+
+.section-connect-wallet {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.section-wallet-img {
+    /* width: 610px; */
+    width: 700px;
+    height: 642px;
+    margin-right: 80px;
+}
+
+.section-wallet-img>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.connect-a-wallet {
+    margin-left: 80px;
+}
+
+.connect-a-wallet>h1 {
+    color: #fff;
+    font-size: 3.188rem;
+    font-family: WorkSansRegular;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.connect-a-wallet>p {
+    color: #fff;
+    font-size: 22px;
+    font-family: WorkSansRegular;
+    line-height: 35px;
+    margin-bottom: 40px;
+}
+
+.wallet-optins-details {
+    width: 320px;
+    height: 70px;
+    border: 1px solid #A259FF;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 25px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wallet-optins-details>a {
+    color: #fff;
+    font-family: WorkSansRegular;
+    font-weight: 600;
+    font-size: 1.375;
+    margin-left: 20px;
+}
+
+/* END CONNECT WALLET SECTION CODES */
+
+
+
+/* ******************************************************************************************************************************************** */
+/* ******************************************************************************************************************************************** */
+/* ****************************************************MARKETPLACE PAGE********************************************************************* */
+
+/* START MARKETPLACE PAGE CODES */
+/* START SECTION SUBHEAD CODES */
+.subhead {
+    padding: 80px 0px;
+}
+
+.subhead>h1 {
+    font-size: 3.188rem;
+    color: #fff;
+    font-family: WorkSansRegular;
+    font-weight: 600;
+}
+
+.subhead>p {
+    font-family: WorkSansRegular;
+    font-size: 1.375rem;
+    color: #fff;
+    line-height: 160%;
+    margin-bottom: 30px;
+}
+
+.search-form{
+    width: 100%;
+    height: 60px;
+    border-radius: 20px;
+    border: 1px solid #3B3B3B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+}
+
+.search-form>input{
+    width: 95%;
+    background-color: #2B2B2B;
+    border: none;
+    outline: none;
+}
+
+.search-form>a{
+    font-size: 1.75rem;
+    color: #fff;
+    display: flex;
+}
+
+.search-form>input::placeholder{
+    color:#858584;
+}
+/* END SECTION SUBHEAD CODES */
+
+/* START SECTION MARKETPLACE  */

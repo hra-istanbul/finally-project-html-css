@@ -1,4 +1,4 @@
-@media only screen and (max-width:1356px) {
+/* @media only screen and (max-width:1356px) {
     .hero-first-section>p {
         font-size: 1rem;
     }
@@ -18,11 +18,67 @@
     .point span {
         font-size: 1.25rem;
     }
-}
+} */
 
 
 /* TABLET  CODES START */
-@media only screen and (max-width:992px) {
+/* @media only screen and (max-width:992px) { */
+
+/* HEADER RESPONSIVE CODES START */
+/*
+
+
+
+/* HEADER RESPONSIVE CODES END */
+
+
+/* SECTION HERO  RESPONSIVE CODES START */
+
+/* .hero-first-section>h1 {
+        font-size: 2.375rem;
+    }
+
+    .hero-first-section>p {
+        width: 100%;
+    } */
+
+/* SECTION HERO  RESPONSIVE CODES END */
+
+/* SECTION TRENDING COLLECTION RESPONSIVE CODES START */
+/* 
+
+
+    .section-trending-collection>h2 {
+        font-size: 1.75rem;
+    }
+
+    .section-trending-collection>p {
+        font-size: 1rem;
+    } */
+
+/* SECTION TRENDING COLLECTION RESPONSIVE CODES END */
+
+
+/* SECTION TOP CREATORS RESPONSIVE CODES START */
+
+
+/* SECTION TOP CREATORS RESPONSIVE CODES END */
+/* } */
+
+
+/* ************************************************************************************************************************************* */
+/* ************************************************************************************************************************************* */
+/* ************************************************************************************************************************************* */
+/* ************************************************************************************************************************************* */
+
+/* Tablet codes */
+
+@media only screen and (max-width:836px) {
+
+    .container {
+        width: 80%;
+        margin: auto;
+    }
 
     /* HEADER RESPONSIVE CODES START */
     .header-item-list {
@@ -35,49 +91,320 @@
 
     /* HEADER RESPONSIVE CODES END */
 
+    /* HERO SECTION RESPONSIVE CODES START */
+    .hero-second-image {
+        width: 330px;
+        height: 221px;
+    }
 
-    /* SECTION HERO  RESPONSIVE CODES START */
+    .hero-second-image>img {
+        height: 100%;
+
+    }
+
+    .card-info {
+        width: 330px;
+    }
 
     .hero-first-section>h1 {
-        font-size: 2.375rem;
+        font-size: 2.125rem;
     }
 
     .hero-first-section>p {
-        width: 100%;
+        width: 310px;
     }
 
-    /* SECTION HERO  RESPONSIVE CODES END */
-
-    /* SECTION TRENDING COLLECTION RESPONSIVE CODES START */
-    .mobile {
-        display: none;
+    .point div>p {
+        font-size: 1.375rem;
     }
 
-    .collection-card {
-        width: 47%;
+    .point div>span {
+        font-size: 1rem;
     }
 
+    /* HERO SECTION RESPONSIVE CODES END */
+
+    /* SECTION TRENDING COLLECTION RESPONSVIE CODES START */
     .section-trending-collection>h2 {
         font-size: 1.75rem;
     }
 
     .section-trending-collection>p {
         font-size: 1rem;
+        line-height: 22px;
     }
 
-    /* SECTION TRENDING COLLECTION RESPONSIVE CODES END */
+    .mobile {
+        display: none;
+    }
 
 
-    /* SECTION TOP CREATORS RESPONSIVE CODES START */
+    .collection-card {
+        width: 47%;
+    }
+
+    /* SECTION TRENDING COLLECTION RESPONSVIE CODES END */
+
+
+    /* SECTION TOP CREATORS RESPONSVIE CODES START */
     .section-top-creators>h2 {
         font-size: 1.75rem;
+        margin-bottom: 10px;
     }
 
     .section-top-creators div>p {
         font-size: 1rem;
-        width: 50%;
         line-height: 22px;
     }
-    
-    /* SECTION TOP CREATORS RESPONSIVE CODES END */
+
+    .section-top-creators-btn {
+        align-items: start;
+    }
+
+    .section-top-creators-btn>a {
+        padding: 15px 50px;
+    }
+
+    /* AVATAR CARD */
+
+    .artist-card {
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        gap: 30px 30px;
+
+    }
+
+    .artist-card-details {
+        width: 330px;
+        height: 100px;
+        display: flex;
+    }
+
+    .artist-card-details>div {
+        margin-left: 20px;
+    }
+
+    .artist-img>img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .number-artists {
+        top: 12px;
+        left: 12px;
+    }
+
+    .avatar-name {
+        text-align: start;
+    }
+
+
+    /* SECTION TOP CREATORS RESPONSVIE CODES END */
+
+    /* SECTION BROWSE CATEGORIES RESPONSIVE CODE START */
+    .section-browse-categories>h2 {
+        font-size: 1.75rem;
+        margin-bottom: 10px;
+    }
+
+
+
+    .category-card-details {
+        width: 150px;
+        height: 142px;
+    }
+
+    .category-card-image>img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .category-card-image {
+        overflow: hidden;
+    }
+
+    .category-icon {
+        top: 30%;
+        left: 35%;
+    }
+
+    .category-icon>a {
+        font-size: 3rem;
+    }
+
+    .category-name {
+        width: 150px;
+        height: 66px;
+    }
+
+    .category-card {
+        gap: 100px 30px;
+    }
+
+    .category-name {
+        padding: 20px 25px;
+    }
+
+    .category-name>p {
+        font-size: 1rem;
+    }
+
+    /* SECTION BROWSE CATEGORIES RESPONSIVE CODE END */
+
+
+    /* SECTION DISCOVER MORE NFT RESPONSIVE CODE START */
+
+    .section-discover-more>h2 {
+        font-size: 1.75rem;
+        margin-bottom: 10px;
+    }
+
+    .section-discover-more>p {
+        font-size: 1rem;
+    }
+
+    .section-discover-more {
+        margin-top: 40px;
+    }
+
+    .nft-card-mobile {
+        display: none;
+    }
+
+    .section-discover-more-btn {
+        margin-bottom: 40px;
+    }
+
+    .nft-card {
+        padding: 0px 0px 60px 0px;
+    }
+
+    .image-placeholder {
+        margin-right: 30px;
+    }
+
+    /* SECTION DISCOVER MORE NFT RESPONSIVE CODE END */
+
+
+    /* SECTION  NFT INFO  RESPONSIVE CODE START */
+    .section-ntf-info {
+        width: 100%;
+        height: 630px;
+        background-size: contain;
+    }
+
+    .section-ntf-text div>h3 {
+        font-size: 2.375rem;
+    }
+
+    .ntf-info-user {
+        width: 23%;
+    }
+
+    .ntf-timer {
+        justify-content: space-evenly;
+    }
+
+    /* SECTION  NFT INFO  RESPONSIVE CODE END */
+
+
+    /* SECTION  HOW IT WORKS RESPONSIVE CODE START */
+
+
+    .section-how-it-works>h2 {
+        font-size: 1.75rem;
+    }
+
+    .section-how-it-works>p {
+        font-size: 1rem;
+    }
+
+    .section-how-it-works {
+        padding: 40px 0px 40px 0px;
+    }
+
+    .how-it-works-card-details {
+        width: 210px;
+        height: 320px;
+    }
+
+    .card-image {
+        width: 160px;
+        height: 160px;
+    }
+
+    .card-text>h4 {
+        font-size: 1rem;
+    }
+
+    .card-text>p {
+        font-size: 0.75rem;
+        line-height: 140%;
+    }
+
+    /* SECTION  HOW IT WORKS RESPONSIVE CODE END */
+
+
+
+    /* SECTION  SUBSCRIBE WIDGET RESPONSIVE CODE START */
+    .section-widget {
+        width: 690px;
+        height: 360px;
+        padding: 40px 30px;
+    }
+
+    .img-widget {
+        width: 300px;
+        height: 280px;
+        margin: 0;
+    }
+
+    .widget-text>h3 {
+        font-size: 1.75rem;
+    }
+
+    .widget-text>p {
+        font-size: 1rem;
+    }
+
+    /* SECTION  SUBSCRIBE WIDGET RESPONSIVE CODE END */
+
+
+    /* FOOTER RESPONSIVE CODE START */
+
+
+    .marketplace {
+        flex-direction: column;
+    }
+
+    .brand {
+        margin-bottom: 20px;
+    }
+
+    .footer-icons {
+        margin-bottom: 30px;
+    }
+
+    .footer-list>h4 {
+        margin-bottom: 20px;
+    }
+
+    .footer-list {
+        margin-bottom: 30px;
+    }
+
+    .subscribe {
+        width: 100%;
+    }
+
+    .subscribe>h4 {
+        margin-bottom: 20px;
+    }
+
+    .footer-input {
+        width: 420px;
+        margin-bottom: 49px;
+    }
 }
+
+    /* @media only screen(max-width:378px) {} */
