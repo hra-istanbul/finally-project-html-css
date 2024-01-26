@@ -1,79 +1,10 @@
-/* @media only screen and (max-width:1356px) {
-    .hero-first-section>p {
-        font-size: 1rem;
-    }
-}
-
-@media only screen and (max-width:1200px) {
-
-    .hero-first-section>h1 {
-        font-size: 2.5rem;
-    }
-
-
-    .point p {
-        font-size: 1.60rem;
-    }
-
-    .point span {
-        font-size: 1.25rem;
-    }
-} */
-
-
-/* TABLET  CODES START */
-/* @media only screen and (max-width:992px) { */
-
-/* HEADER RESPONSIVE CODES START */
-/*
-
-
-
-/* HEADER RESPONSIVE CODES END */
-
-
-/* SECTION HERO  RESPONSIVE CODES START */
-
-/* .hero-first-section>h1 {
-        font-size: 2.375rem;
-    }
-
-    .hero-first-section>p {
-        width: 100%;
-    } */
-
-/* SECTION HERO  RESPONSIVE CODES END */
-
-/* SECTION TRENDING COLLECTION RESPONSIVE CODES START */
-/* 
-
-
-    .section-trending-collection>h2 {
-        font-size: 1.75rem;
-    }
-
-    .section-trending-collection>p {
-        font-size: 1rem;
-    } */
-
-/* SECTION TRENDING COLLECTION RESPONSIVE CODES END */
-
-
-/* SECTION TOP CREATORS RESPONSIVE CODES START */
-
-
-/* SECTION TOP CREATORS RESPONSIVE CODES END */
-/* } */
-
-
-/* ************************************************************************************************************************************* */
-/* ************************************************************************************************************************************* */
-/* ************************************************************************************************************************************* */
 /* ************************************************************************************************************************************* */
 
 /* Tablet codes */
 
 @media only screen and (max-width:836px) {
+
+    /*  ********************************************** HOME PAGE  TABLET RESPONSIVE************************************************************* */
 
     .container {
         width: 80%;
@@ -134,7 +65,8 @@
         line-height: 22px;
     }
 
-    .mobile {
+
+    .tablet-collection-card {
         display: none;
     }
 
@@ -155,6 +87,7 @@
     .section-top-creators div>p {
         font-size: 1rem;
         line-height: 22px;
+        width: 343px;
     }
 
     .section-top-creators-btn {
@@ -171,7 +104,6 @@
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
         gap: 30px 30px;
-
     }
 
     .artist-card-details {
@@ -198,6 +130,30 @@
         text-align: start;
     }
 
+    .artist-card-details:nth-child(7) {
+        display: none;
+    }
+
+    .artist-card-details:nth-child(8) {
+        display: none;
+    }
+
+    .artist-card-details:nth-child(9) {
+        display: none;
+    }
+
+    .artist-card-details:nth-child(10) {
+        display: none;
+    }
+
+    .artist-card-details:nth-child(11) {
+        display: none;
+    }
+
+    .artist-card-details:nth-child(12) {
+        display: none;
+    }
+
 
     /* SECTION TOP CREATORS RESPONSVIE CODES END */
 
@@ -206,8 +162,6 @@
         font-size: 1.75rem;
         margin-bottom: 10px;
     }
-
-
 
     .category-card-details {
         width: 150px;
@@ -249,6 +203,9 @@
         font-size: 1rem;
     }
 
+    .category-card-details:nth-child(5){
+
+    }
     /* SECTION BROWSE CATEGORIES RESPONSIVE CODE END */
 
 
@@ -290,6 +247,8 @@
     .section-ntf-info {
         width: 100%;
         height: 630px;
+        
+        background-attachment: fixed;
         background-size: contain;
     }
 
@@ -367,11 +326,51 @@
         font-size: 1rem;
     }
 
+    .input-box {
+        padding: 14px 22px;
+        width: 100%;
+        height: 46px;
+
+    }
+
+    .input-box>a {
+        display: none;
+    }
+
+    .mobile-input-box-btn {
+        margin-top: 24px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 46px;
+        background-color: #A259FF;
+        border-radius: 20px;
+    }
+
+    .mobile-input-box-btn>a {
+        display: flex;
+        align-items: center;
+        font-family: WorkSansRegular;
+        color: #fff;
+    }
+
+    .mobile-input-box-btn a>i {
+        margin-right: 10px;
+    }
+
+    .input-for-email {
+        position: static;
+        width: 100%;
+    }
+
+    .input-box {
+        position: static;
+    }
+
     /* SECTION  SUBSCRIBE WIDGET RESPONSIVE CODE END */
 
 
-    /* FOOTER RESPONSIVE CODE START */
-
+    /* FOOTER  HOME PAGE RESPONSIVE CODE START */
 
     .marketplace {
         flex-direction: column;
@@ -405,6 +404,331 @@
         width: 420px;
         margin-bottom: 49px;
     }
+
+    /* FOOTER HOME PAGE TABLET RESPONSIVE END */
+
+
+
+    /*  ***************************************** CREATE ACCOUNT  TABLET RESPONSIVE************************************************************* */
+    .create-acc-image-placeholder {
+        width: 397px;
+        height: 615px;
+        margin-right: 40px;
+    }
+
+    .create-account-item {
+        width: 397px;
+        height: 615px;
+        padding: 80px 0px;
+        margin: 0;
+    }
+
+    .create-account-item>h1 {
+        font-size: 2.375rem;
+    }
+
+    .create-account-item>p {
+        font-size: 1rem;
+        line-height: 28px;
+    }
+
+    .form-for-login>a {
+        margin-top: 15px;
+    }
+
+
 }
 
-    /* @media only screen(max-width:378px) {} */
+/* ************************************************************************************************************************************* */
+@media only screen and (max-width:377px) {
+
+    /*  ******************************************* HOME PAGE MOBILE RESPONSIVE************************************************************* */
+
+    /* HEADER MOBILE RESPONSIVE CODES START */
+
+    .header {
+        padding: 15px 30px;
+    }
+
+    .header-first-item {
+        font-size: 1rem;
+    }
+
+    /* SECTION HERO MOBILE CODE */
+    #hero {
+        display: none;
+    }
+
+    /* SECTION TRENDING COLLECTION MOBILE RESPONSIVE CODES START */
+    .section-trending-collection {
+        margin-top: 0;
+        padding-top: 40px;
+    }
+
+    .section-trending-collection>p {
+        width: 330px;
+        text-transform: none;
+    }
+
+    .mobile-collectin-card {
+        display: none;
+    }
+
+    .collection-card-row {
+        justify-content: center;
+    }
+
+    .collection-card {
+        width: 315px;
+        height: 315px;
+    }
+
+    /* SECTION TRENDING COLLECTION MOBILE RESPONSIVE CODES END */
+
+
+    /* SECTION TOP CREATORS MOBILE RESPONSIVE CODES START */
+    #top-creators {
+        margin-top: 100px;
+    }
+
+    .section-top-creators>h2 {
+        margin-top: 50px;
+    }
+
+    .section-top-creators div>p {
+        font-size: 1rem;
+        line-height: 170%;
+    }
+
+    .section-top-creators-btn>a {
+        display: none;
+    }
+
+    .artist-card-details:nth-child(6) {
+        display: none;
+    }
+
+    .artist-card {
+        grid-template-columns: auto;
+    }
+
+    /* SECTION TOP CREATORS MOBILE RESPONSIVE CODES END */
+
+
+    /* SECTION HERO MOBILE RESPONSIVE CODE START */
+    .mobile-hero {
+        display: flex;
+        padding: 40px 0px;
+
+    }
+
+    .mobile-hero div>h2 {
+        color: #fff;
+        font-family: WorkSansRegular;
+        font-weight: 600;
+        font-size: 1.75rem;
+        margin-bottom: 10px;
+    }
+
+    .mobile-hero div>p {
+        color: #fff;
+        font-size: 1rem;
+        font-family: WorkSansRegular;
+        font-weight: 400;
+        line-height: 140%;
+        margin-bottom: 40px;
+    }
+
+    .mobile-hero-details {
+        width: 315px;
+        height: 206px;
+        margin-bottom: 40px;
+    }
+
+    .mobile-hero-details>img {
+        width: 100%;
+        height: 100%;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        display: flex;
+        object-fit: cover;
+    }
+
+    .mobile-hero-card-info {
+        background-color: #3B3B3B;
+        height: 109px;
+        padding: 20px 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        margin-bottom: 40px;
+    }
+
+    .mobile-hero-card-info>h6 {
+        color: #fff;
+        font-size: 1.375rem;
+        font-family: WorkSansRegular;
+        margin-bottom: 20px;
+
+    }
+
+    .mobile-btn-get-started {
+        width: 315px;
+        background-color: #A259FF;
+        margin-top: 60px;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        border-radius: 20px;
+    }
+
+    .mobile-btn-get-started>a {
+        color: #fff;
+        font-family: WorkSansRegular;
+        font-size: 1rem;
+    }
+
+    .mobile-btn-get-started a>i {
+        color: #fff;
+    }
+
+    .mobile-point div>p {
+        font-weight: 700;
+    }
+
+    /* SECTION HERO MOBILE RESPONSIVE CODE END */
+
+
+    /* SECTION SROWSE CATEGORIES MOBILE RESPONSIVE CODES START */
+
+    .section-browse-categories>h2 {
+        padding: 40px 0px 40px 0px;
+    }
+
+    .category-card {
+        grid-template-columns: auto auto;
+        justify-content: center;
+    }
+
+    /* SECTION BROWSE CATEGORIES MOBILE RESPONSIVE CODES END */
+
+
+    /* SECTION DISCOVER MORE MOBILE RESPONSIVE CODES START */
+    .section-discover-more-btn>a {
+        display: none;
+    }
+
+    .section-discover-more div>p {
+        font-size: 1rem;
+    }
+
+    .nft-card {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .nft-card-mobile {
+        display: inline-block;
+    }
+
+    .nft-card-details {
+        width: 315px;
+        margin-bottom: 20px;
+    }
+
+    /* SECTION DISCOVER MORE MOBILE RESPONSIVE CODES END */
+
+    /* SECTION NFT INFO MOBILE RESPONSIVE CODES STAR */
+
+    .section-ntf-details {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .how-it-works-card {
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+
+    .how-it-works-card-details {
+        width: 315px;
+        height: 140px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .card-text {
+        text-align: start;
+    }
+
+    /* SECTION NFT INFO MOBILE RESPONSIVE CODES END */
+
+
+    /* SECTION SUBSCRIBE WIDGET RESPONSIVE CODES STAR */
+    .section-widget {
+        width: 315px;
+        flex-direction: column;
+        background-color: #2B2B2B;
+        padding: 0;
+    }
+
+    .img-widget {
+        width: 315px;
+        height: 255px;
+        margin-bottom: 30px;
+    }
+
+    .widget-text>h3 {
+        width: 315px;
+        font-size: 1.875rem;
+        margin-bottom: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /*  ************************************* CREATE ACCOUNT  MOBILE RESPONSIVE************************************************************* */
+    .section-create-account {
+        display: block;
+        text-align: center;
+    }
+
+    .create-account-item {
+        padding: 0px 0px 30px 0px;
+    }
+
+    .create-account-item>p {
+        margin-bottom: 30px;
+    }
+
+    .form-for-login>a {
+        padding: 15px 108px;
+    }
+
+    .create-acc-image-placeholder {
+        width: 375px;
+        height: 232px;
+    }
+
+    .form-for-login {
+        align-items: center;
+    }
+
+    .create-account-item {
+        padding: 30px 0px 30px 0px;
+        height: 515px;
+    }
+}

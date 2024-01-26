@@ -48,11 +48,10 @@
         <!-- 
         </div> -->
     </header>
-
     <!-- HEADER CODES END -->
 
     <!-- START SECTION HERO  -->
-    <section>
+    <section id="hero">
         <div class="container">
             <div class="hero-section">
                 <div class="hero-first-section">
@@ -99,11 +98,10 @@
             </div>
         </div>
     </section>
-
     <!-- END SECTION HERO -->
 
     <!-- START SECTION TRENDING COLLECTION -->
-    <section>
+    <section id="trend-collection">
         <div class="container">
             <div class="section-trending-collection">
                 <h2>Trending Collection</h2>
@@ -142,7 +140,7 @@
                 </div>
 
                 <!-- COLLECTION-CARD-2 -->
-                <div class="collection-card">
+                <div class="collection-card mobile-collectin-card">
                     <img src="img/TrendingCollection(images)/img2.png" alt="">
 
                     <div class="second-images">
@@ -174,7 +172,7 @@
 
 
                 <!-- COLLECTION-CARD-3 -->
-                <div class="collection-card mobile">
+                <div class="collection-card tablet-collection-card">
                     <img src="img/TrendingCollection(images)/img3.png" alt="">
 
                     <div class="second-images">
@@ -212,13 +210,13 @@
 
 
     <!-- START SECTION TOP CREATORS -->
-    <section>
+    <section id="top-creators">
         <div class="container">
 
             <div class="section-top-creators">
                 <h2>Top creators</h2>
                 <div class="section-top-creators-btn">
-                    <p>Checkout Top Rated Creators on the NFT <br> Marketplace</p>
+                    <p>Checkout Top Rated Creators on the NFT Marketplace</p>
                     <a href="#">
                         <i class='bx bx-rocket'></i>
                         View Rankings
@@ -427,8 +425,59 @@
             </div>
         </div>
     </section>
-
     <!-- END SECTION TOP CREATORS -->
+
+
+    <!-- HERO MOBILE VERSION CODE START /////-->
+    <section id="mobile-hero">
+        <div class="container">
+            <div class="mobile-hero">
+                <div>
+                    <h2>Discover digital art & Collect NFTs</h2>
+                    <p>NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT
+                        artists.</p>
+
+                    <div class="mobile-hero-details">
+                        <img src="img/HomePage(images)/bcf2d5507a81254146143702cd71f923.png" alt="">
+
+                        <div class="mobile-hero-card-info">
+                            <h6>Space Walking</h6>
+                            <div class="user-info">
+                                <img src="img/HomePage(images)/herosectionAvatar.png" alt="">
+                                <p>Animakid</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mobile-btn-get-started">
+                <a href="#">
+                    <i class='bx bx-rocket'></i>
+                    Get Started
+                </a>
+            </div>
+
+            <div class="point mobile-point">
+                <div>
+                    <p>240k+</p>
+                    <span>Total Sale</span>
+                </div>
+
+                <div>
+                    <p>100k+</p>
+                    <span>Auctions</span>
+                </div>
+                <div>
+                    <p>240k+</p>
+                    <span>Artists</span>
+                </div>
+            </div>
+
+
+    </section>
+    <!-- HERO MOBILE VERSION CODE END////// -->
+
 
     <!-- START SECTION BROWSE CATEGORIES -->
     <section>
@@ -672,51 +721,46 @@
     <!-- START SECTION NTF-INFO  -->
     <section>
         <div class="section-ntf-info">
-            <!-- <div class="background-linear"> -->
+            <!-- <div class="container"> -->
             <div class="section-ntf-details">
-                <!-- Bg image  -->
-                <div class="ntf-info-user">
-                    <img src="img/Top creators(images)/avatar7.png" alt="">
-                    <p>Shroomie</p>
-                </div>
-
                 <!-- NTF INFO TEXT -->
-                <div class="section-ntf-text">
-                    <div>
-                        <h3>Magic Mushrooms</h3>
-                        <a href="#">
-                            <i class="fa-regular fa-eye"></i>
-                            See NTF
-                        </a>
+                <div class="left">
+                    <div class="ntf-info-user">
+                        <img src="img/Top creators(images)/avatar7.png" alt="">
+                        <p>Shroomie</p>
                     </div>
 
-                    <!-- TEXT AND TIMER CODES -->
-                    <div class="section-ntf-auction-timer">
+                    <h3>Magic Mushrooms</h3>
+                    <a href="#">
+                        <i class="fa-regular fa-eye"></i>
+                        See NTF
+                    </a>
+                </div>
+
+                <!-- TEXT AND TIMER CODES -->
+                <div class="section-ntf-auction-timer">
+                    <div>
+                        <p>Auction ends in:</p>
+                    </div>
+
+                    <div class="ntf-timer">
                         <div>
-                            <p>Auction ends in:</p>
+                            <p id="hours">59 :</p>
+                            <span>Hours</span>
                         </div>
 
-                        <div class="ntf-timer">
-                            <div>
-                                <p id="hours">59 :</p>
-                                <span>Hours</span>
-                            </div>
-
-                            <div>
-                                <p id="minutes">59 :</p>
-                                <span>Minutes</span>
-                            </div>
-
-                            <div>
-                                <p id="seconds">59</p>
-                                <span>Seconds</span>
-                            </div>
+                        <div>
+                            <p id="minutes">59 :</p>
+                            <span>Minutes</span>
                         </div>
 
-
-
+                        <div>
+                            <p id="seconds">59</p>
+                            <span>Seconds</span>
+                        </div>
                     </div>
                 </div>
+
             </div>
             <!-- </div> -->
 
@@ -791,6 +835,13 @@
                             Subscribe
                         </a>
                     </div>
+
+                    <div class="mobile-input-box-btn">
+                        <a href="#">
+                            <i class="fa-regular fa-envelope"></i>
+                            Subscribe
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -810,7 +861,7 @@
                     </div>
 
                     <div class="marketplace-text">
-                        <p>NFT marketplace UI created 
+                        <p>NFT marketplace UI created
                             with Anima for Figma.</p>
                         <p>Join our community</p>
                     </div>
@@ -834,7 +885,7 @@
 
                 <div class="subscribe">
                     <h4>Join our weekly digest</h4>
-                    <p>Get exclusive promotions & updates 
+                    <p>Get exclusive promotions & updates
                         straight to your inbox.</p>
 
                     <div class="footer-input">
@@ -850,14 +901,13 @@
                 <p>Ⓒ NFT Market. Use this template freely.</p>
             </div>
 
-
-
         </div>
         </div>
     </footer>
     <!-- END FOOTER  -->
 
 
+    </div>
 
 </body>
 

@@ -344,7 +344,8 @@
     /* justify-content: space-evenly;  */
     display: grid;
     grid-template-columns: auto auto auto auto;
-    gap: 30px 0px;
+    gap: 30px 35px;
+    justify-content: center;
     /* justify-content: space-around;  */
     /* padding: 0px 50px 50px ; */
 
@@ -411,25 +412,20 @@
     font-family: SpaceMonoRegular;
 }
 
+.mobile-hero {
+    display: none;
+}
+
+.mobile-point{
+    display: none;
+}
+
+.mobile-btn-get-started{
+    display: none;
+}
+
 /* END TOP CREATOR AVATARS */
 
-/* START TOP-CREATORS-AVATAR MOBILE CODES */
-/* .mobile-artist-card-details{
-    width: 330px;
-    height: 100px;
-    background-color: #3B3B3B;
-    display: flex;
-}
-
-.mobile-artist-img{
-    display: flex;
-}
-
-.mobile-artist-img>img {
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-} */
 
 
 /* END TOP-CREATORS-AVATAR MOBILE CODES */
@@ -469,7 +465,10 @@
     height: 240px;
     filter: blur(3.5px);
     border-radius: 20px 20px 0px 0px;
+}
 
+.category-card-image {
+    overflow: hidden;
 }
 
 .category-name {
@@ -481,7 +480,7 @@
     padding: 15px 30px 25px 30px;
 }
 
-.category-name>p {
+.category-name p {
     color: #fff;
     font-size: 1.15rem;
     font-family: WorkSansRegular;
@@ -630,29 +629,29 @@
 /* START SECTION NTF-INFO */
 
 .section-ntf-details {
+    order: 100;
     width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(162, 89, 255, 0.00) 0%, #A259FF 100%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding: 80px 0px;
 }
 
 .section-ntf-info {
-    background: url(../img/bgImg.png);
-    width: 100%;
-    height: 720px;
+    height: 100vh;
+    background-image: url(../img/bgImg.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    height: 720px;
     object-fit: cover;
     background-size: cover;
-    display: flex;
-    align-items: flex-end;
-    padding: 40px 90px;
-}
-
-.background-linear {
-    background: linear-gradient(180deg, rgba(162, 89, 255, 0.00) 0%, #A259FF 100%);
 }
 
 /* BG IMAGE CODES  */
 .ntf-info-user {
-    width: 11%;
+    width: 33%;
     height: 44px;
     background-color: #3B3B3B;
     border-radius: 20px;
@@ -685,7 +684,11 @@
     margin-bottom: 25px;
 }
 
-.section-ntf-text div>a {
+.section-ntf-info>.container {
+    display: none;
+}
+
+.left>a {
     background-color: #fff;
     border-radius: 20px;
     padding: 20px 50px;
@@ -694,11 +697,11 @@
     display: inline-block;
 }
 
-.section-ntf-text div a>i {
+.left a>i {
     color: #A259FF;
 }
 
-.section-ntf-text div>h3 {
+.left>h3 {
     color: #fff;
     font-family: WorkSansRegular;
     font-weight: 600;
@@ -866,14 +869,9 @@
 /* START WIDGET INPUT */
 .input-box {
     width: 90%;
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
     position: relative;
     border-radius: 20px;
     height: 60px;
-    /* padding-left: 20px;
-    margin-top: 30px; */
     padding: 22px 22px;
     background-color: #fff;
     margin-top: 30px;
@@ -906,6 +904,10 @@ input::placeholder {
 .input-box a>i {
     color: #fff;
     margin-right: 5px;
+}
+
+.mobile-input-box-btn{
+    display: none;
 }
 
 /* END CODES SECTION SUBSCRIBE WIDGET */
@@ -1231,7 +1233,7 @@ input::placeholder {
     margin-bottom: 30px;
 }
 
-.search-form{
+.search-form {
     width: 100%;
     height: 60px;
     border-radius: 20px;
@@ -1242,22 +1244,72 @@ input::placeholder {
     padding: 12px 20px;
 }
 
-.search-form>input{
+.search-form>input {
     width: 95%;
     background-color: #2B2B2B;
     border: none;
     outline: none;
 }
 
-.search-form>a{
+.search-form>a {
     font-size: 1.75rem;
     color: #fff;
     display: flex;
 }
 
-.search-form>input::placeholder{
-    color:#858584;
+.search-form>input::placeholder {
+    color: #858584;
 }
+
 /* END SECTION SUBHEAD CODES */
 
 /* START SECTION MARKETPLACE  */
+.frame {
+    display: flex;
+    justify-content: center;
+}
+
+.nft-left,
+.nft-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 60px;
+}
+
+.nft-left {
+    border-bottom: 3px solid #858584;
+}
+
+.nft-left>a {
+    color: #fff;
+    font-family: WorkSansRegular;
+    font-weight: 600;
+    margin-right: 16px;
+}
+
+.nft-right>a {
+    color: #858584;
+    font-family: WorkSansRegular;
+    font-weight: 600;
+    margin-right: 16px;
+}
+
+.num {
+    width: 50px;
+    height: 32px;
+    background-color: #858584;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: SpaceMonoRegular;
+}
+
+.active {
+    color: #fff;
+}
+
+.marketplace-card {
+    background-color: #3B3B3B;
+}
