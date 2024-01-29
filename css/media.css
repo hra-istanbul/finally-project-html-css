@@ -41,6 +41,10 @@
         font-size: 2.125rem;
     }
 
+    .hero-first-section {
+        margin-top: 0;
+    }
+
     .hero-first-section>p {
         width: 310px;
     }
@@ -203,9 +207,8 @@
         font-size: 1rem;
     }
 
-    .category-card-details:nth-child(5){
+    /* .category-card-details:nth-child(5) {} */
 
-    }
     /* SECTION BROWSE CATEGORIES RESPONSIVE CODE END */
 
 
@@ -247,9 +250,8 @@
     .section-ntf-info {
         width: 100%;
         height: 630px;
-        
         background-attachment: fixed;
-        background-size: contain;
+        background-size: cover;
     }
 
     .section-ntf-text div>h3 {
@@ -372,8 +374,9 @@
 
     /* FOOTER  HOME PAGE RESPONSIVE CODE START */
 
-    .marketplace {
+    .footers-marketplace {
         flex-direction: column;
+        margin-bottom: 0;
     }
 
     .brand {
@@ -404,6 +407,7 @@
         width: 420px;
         margin-bottom: 49px;
     }
+
 
     /* FOOTER HOME PAGE TABLET RESPONSIVE END */
 
@@ -437,6 +441,23 @@
     }
 
 
+
+
+
+    /* ****************************************MARKETPLACE PAGGE TABLET RESPONSIVE CODE********************************************** */
+
+    .subhead {
+        padding: 0px 0px 60px 0px;
+    }
+
+    .subhead>h1 {
+        font-size: 2.375rem;
+        margin-bottom: 10px;
+    }
+
+    .subhead>p {
+        font-size: 1rem;
+    }
 }
 
 /* ************************************************************************************************************************************* */
@@ -463,10 +484,12 @@
     .section-trending-collection {
         margin-top: 0;
         padding-top: 40px;
+        width: 315px;
     }
 
+
     .section-trending-collection>p {
-        width: 330px;
+        /* width: 330px; */
         text-transform: none;
     }
 
@@ -479,8 +502,10 @@
     }
 
     .collection-card {
-        width: 315px;
-        height: 315px;
+        /* width: 315px;
+        height: 315px; */
+        width: 300px;
+        height: 300px;
     }
 
     /* SECTION TRENDING COLLECTION MOBILE RESPONSIVE CODES END */
@@ -504,12 +529,47 @@
         display: none;
     }
 
+    .artist-card-details {
+        width: 315px;
+        height: 100px;
+    }
+
     .artist-card-details:nth-child(6) {
         display: none;
     }
 
     .artist-card {
-        grid-template-columns: auto;
+        /* margin-right: 35px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* grid-template-columns: auto; */
+    }
+
+    .top-creator-btn {
+        width: 315px;
+        height: 60px;
+        border: 1px solid #A259FF;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .top-creator-btn>a {
+        display: flex;
+        align-items: center;
+        color: #fff;
+        font-family: WorkSansRegular;
+        font-size: 1rem;
+        margin-left: 10px;
+    }
+
+    .top-creator-btn a>i {
+        color: #A259FF;
+        margin-right: 10px;
     }
 
     /* SECTION TOP CREATORS MOBILE RESPONSIVE CODES END */
@@ -600,7 +660,7 @@
     /* SECTION HERO MOBILE RESPONSIVE CODE END */
 
 
-    /* SECTION SROWSE CATEGORIES MOBILE RESPONSIVE CODES START */
+    /* SECTION BROWSE CATEGORIES MOBILE RESPONSIVE CODES START */
 
     .section-browse-categories>h2 {
         padding: 40px 0px 40px 0px;
@@ -641,6 +701,10 @@
 
     /* SECTION NFT INFO MOBILE RESPONSIVE CODES STAR */
 
+    .section-ntf-info {
+        background-position: center;
+    }
+
     .section-ntf-details {
         flex-direction: column;
         justify-content: center;
@@ -652,6 +716,18 @@
         justify-content: center;
         padding-bottom: 40px;
     }
+
+    .ntf-info-user {
+        width: 50%;
+    }
+
+    .left {
+        display: flex;
+        flex-direction: column;
+       align-items: flex-start;
+       padding: 0px 45px;
+    }
+
 
     .how-it-works-card-details {
         width: 315px;
@@ -691,10 +767,31 @@
     }
 
 
+    footer {
+        margin-top: 60%;
+    }
 
 
+    .footer-input {
+        width: 315px;
+        margin-bottom: 0;
+        height: 46px;
+        padding: 16px 20px;
+    }
+
+    .footer-input>a {
+        display: none;
+    }
 
 
+    .footer-input-email {
+        width: 80%;
+    }
+
+    .mobile-input-box-btn {
+        width: 315px;
+        margin-bottom: 30px;
+    }
 
 
 
@@ -731,4 +828,10 @@
         padding: 30px 0px 30px 0px;
         height: 515px;
     }
+
+
+    /* 
+    section:not(#top-creators) {
+        display: none;
+    } */
 }

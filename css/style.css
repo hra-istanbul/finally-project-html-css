@@ -30,7 +30,7 @@
     margin-right: 10px;
 }
 
-.header-first-item h1 {
+.header-first-item a>h1 {
     color: #fff;
     font-size: 1.25rem;
     font-family: WorkSansRegular;
@@ -72,6 +72,12 @@
 .hero-first-section {
     /* width: 42%; */
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 65px;
+    margin-right: 40px;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .hero-first-section>h1 {
@@ -124,8 +130,8 @@
 .hero-second-section {
     width: 50%;
     /* margin-left: 60px; */
-    margin-left: 30px;
-    position: relative;
+    /* margin-left: 30px;
+    position: relative; */
 }
 
 .hero-second-image {
@@ -340,14 +346,10 @@
 /* START TOP CREATOR AVATARS */
 
 .artist-card {
-    /* display: flex; */
-    /* justify-content: space-evenly;  */
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 30px 35px;
     justify-content: center;
-    /* justify-content: space-around;  */
-    /* padding: 0px 50px 50px ; */
 
 }
 
@@ -416,11 +418,16 @@
     display: none;
 }
 
-.mobile-point{
+.mobile-point {
     display: none;
 }
 
-.mobile-btn-get-started{
+.mobile-btn-get-started {
+    display: none;
+}
+
+
+.top-creator-btn {
     display: none;
 }
 
@@ -906,7 +913,7 @@ input::placeholder {
     margin-right: 5px;
 }
 
-.mobile-input-box-btn{
+.mobile-input-box-btn {
     display: none;
 }
 
@@ -921,7 +928,7 @@ footer {
     padding: 40px 0px;
 }
 
-.marketplace {
+.footers-marketplace {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
@@ -1269,6 +1276,7 @@ input::placeholder {
     justify-content: center;
 }
 
+
 .nft-left,
 .nft-right {
     display: flex;
@@ -1310,6 +1318,97 @@ input::placeholder {
     color: #fff;
 }
 
-.marketplace-card {
+.marketplace {
     background-color: #3B3B3B;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    margin-bottom: 3px;
+}
+
+.marketplace-card {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.marketplace-card-info {
+    background-color: #2B2B2B;
+    width: 330px;
+    height: 170px;
+    border-radius: 0px 0px 20px 20px;
+    padding: 20px 30px;
+}
+
+.marketplace-card-info>h3 {
+    color: #fff;
+    font-size: 1.375rem;
+    font-family: WorkSansRegular;
+    line-height: 140%;
+    margin-bottom: 5px;
+}
+
+
+/* 
+RANKING OAGE CODES START */
+.table-header {
+    width: 100%;
+    height: 46px;
+    border: 1px solid #3B3B3B;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    margin-top: 40px;
+}
+
+.table-header ul {
+    display: flex;
+}
+
+.table-header ul li {
+    margin-right: 20px;
+    color: #858584;
+    font-family: SpaceMonoRegular;
+    font-size: 1rem;
+}
+
+.table-header-ul-item {
+    padding: 0px 65px;
+}
+
+.table-item {
+    width: 100%;
+    height: 60px;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 12px 20px;
+
+}
+
+.rankings-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rankings-img img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.rankings-details{
+    display: flex;
+}
+
+.rankings-details li{
+    padding: 0px 60px;
+    margin-right: 20px;
 }
