@@ -717,6 +717,10 @@
     align-self: stretch;
 }
 
+.mobile-btn-ntf-info {
+    display: none;
+}
+
 /* NTF INFO TEXT CODES START */
 
 
@@ -755,6 +759,7 @@
     font-size: 0.75rem;
     font-family: SpaceMonoRegular;
 }
+
 
 /* AUCTIONTIMER CODES  END*/
 /* END SECTION NTF-INFO */
@@ -1070,28 +1075,17 @@ input::placeholder {
     align-items: flex-start;
 }
 
-.form-for-login>a {
-    text-align: center;
-    background-color: #A259FF;
-    /* padding: 20px 50px; */
-    padding: 15px 110px;
-    color: #fff;
-    font-family: WorkSansRegular;
-    border-radius: 20px;
-    margin-top: 30px;
-
-}
-
 .input-for-login {
     border: none;
     outline: none;
     padding: 16px 20px;
-    border-radius: 20px;
     width: 85%;
     height: 46px;
-    margin-bottom: 15px;
 }
 
+.mobile-footer-input-box-btn {
+    display: none;
+}
 
 /* END FOOTER HOME-PAGE CODES */
 
@@ -1108,7 +1102,8 @@ input::placeholder {
 }
 
 .create-acc-image-placeholder {
-    width: 680px;
+    /* width: 680px; */
+   width: 700px;
     height: 700px;
     margin-right: 80px;
 }
@@ -1139,6 +1134,34 @@ input::placeholder {
     line-height: 35px;
     margin-bottom: 40px;
 }
+
+.login-items{
+    width: 320px;
+    height: 46px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-items>i{
+    color: #BDBDBD;
+    font-size: 20px;
+}
+
+.login-items>a{
+    color: #fff;
+    font-family: WorkSansRegular;
+}
+
+.button-a{
+    background-color: #A259FF;
+}
+
+
 
 /* END CREATE ACCOUNT PAGE CODES */
 
@@ -1197,10 +1220,10 @@ input::placeholder {
     border-radius: 20px;
     margin-bottom: 20px;
     text-align: center;
-    padding: 25px 0px;
+    padding: 22px 0px 22px 40px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .wallet-optins-details>a {
@@ -1274,6 +1297,7 @@ input::placeholder {
 .frame {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 
@@ -1282,7 +1306,8 @@ input::placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 340px;
+    /* width: 340px; */
+    width: 50%;
     height: 60px;
 }
 
@@ -1364,32 +1389,45 @@ RANKING OAGE CODES START */
     margin-top: 40px;
 }
 
-.table-header ul {
+.table-header div {
     display: flex;
-}
-
-.table-header ul li {
-    margin-right: 20px;
     color: #858584;
     font-family: SpaceMonoRegular;
-    font-size: 1rem;
 }
 
-.table-header-ul-item {
-    padding: 0px 65px;
+.table-header-item {
+    width: 160px;
 }
+
+.table-header-left>div {
+    margin-right: 20px;
+}
+
 
 .table-item {
     width: 100%;
-    height: 60px;
+    height: 84px;
     background-color: #3B3B3B;
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 12px 20px;
 
+}
+
+.rankings {
+    padding-bottom: 40px;
+}
+
+.number {
+    background-color: #2B2B2B;
+    border-radius: 100%;
+    color: #858584;
+    padding: 5px 11px;
+    margin-right: 20px;
+    font-family: SpaceMonoRegular;
 }
 
 .rankings-img {
@@ -1402,13 +1440,28 @@ RANKING OAGE CODES START */
     width: 60px;
     height: 60px;
     border-radius: 100%;
+    margin-right: 20px;
 }
 
-.rankings-details{
+.avatar-name {
+    font-size: 1.375rem;
+}
+
+.rankings-details {
     display: flex;
 }
 
-.rankings-details li{
+.rankings-details li {
     padding: 0px 60px;
     margin-right: 20px;
+}
+
+.rankings-details-item {
+    width: 160px;
+    font-family: SpaceMonoRegular;
+    color: #fff;
+}
+
+.change-item {
+    color: #00AC4F;
 }

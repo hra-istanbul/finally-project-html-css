@@ -259,7 +259,7 @@
     }
 
     .ntf-info-user {
-        width: 23%;
+        width: 33%;
     }
 
     .ntf-timer {
@@ -309,7 +309,8 @@
 
     /* SECTION  SUBSCRIBE WIDGET RESPONSIVE CODE START */
     .section-widget {
-        width: 690px;
+        /* width: 690px; */
+        width: 675px;
         height: 360px;
         padding: 40px 30px;
     }
@@ -317,7 +318,7 @@
     .img-widget {
         width: 300px;
         height: 280px;
-        margin: 0;
+        margin-right: 20px;
     }
 
     .widget-text>h3 {
@@ -408,6 +409,9 @@
         margin-bottom: 49px;
     }
 
+    .mobile-input-box-btn {
+        display: none;
+    }
 
     /* FOOTER HOME PAGE TABLET RESPONSIVE END */
 
@@ -441,8 +445,31 @@
     }
 
 
+    /*  ***************************************** CONNECT WALLET  TABLET RESPONSIVE************************************************************* */
 
+    .section-wallet-img {
+        width: 397px;
+        height: 530px;
+        margin-right: 0;
+    }
 
+    .connect-a-wallet>h1 {
+        font-size: 2.375rem;
+    }
+
+    .connect-a-wallet>p {
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+    .wallet-optins-details {
+        width: 245px;
+        height: 60px;
+    }
+
+    .connect-a-wallet {
+        margin-left: 60px;
+    }
 
     /* ****************************************MARKETPLACE PAGGE TABLET RESPONSIVE CODE********************************************** */
 
@@ -458,6 +485,32 @@
     .subhead>p {
         font-size: 1rem;
     }
+
+    .marketplace-card {
+        gap: 0;
+        justify-content: normal;
+    }
+
+    .marketplace .container {
+        width: 83%;
+    }
+
+    .marketplace-card {
+        grid-template-columns: auto auto;
+    }
+
+    .nft-card-details {
+        margin-bottom: 30px;
+    }
+
+    .marketplace {
+        padding-bottom: 40px;
+    }
+
+    #marketplace .container {
+        width: 83%;
+    }
+
 }
 
 /* ************************************************************************************************************************************* */
@@ -516,6 +569,10 @@
         margin-top: 100px;
     }
 
+    #top-creators .container {
+        width: 84%;
+    }
+
     .section-top-creators>h2 {
         margin-top: 50px;
     }
@@ -572,6 +629,18 @@
         margin-right: 10px;
     }
 
+    .total-sales {
+        margin-top: 10px;
+    }
+
+    .total-sales>span {
+        font-size: 12px;
+    }
+
+    .section-top-creators-btn {
+        margin-bottom: 0;
+    }
+
     /* SECTION TOP CREATORS MOBILE RESPONSIVE CODES END */
 
 
@@ -580,6 +649,10 @@
         display: flex;
         padding: 40px 0px;
 
+    }
+
+    #mobile-hero .container {
+        width: 84%;
     }
 
     .mobile-hero div>h2 {
@@ -697,6 +770,14 @@
         margin-bottom: 20px;
     }
 
+    .image-placeholder {
+        width: 315px;
+    }
+
+    .nft-card-info {
+        width: 315px;
+    }
+
     /* SECTION DISCOVER MORE MOBILE RESPONSIVE CODES END */
 
     /* SECTION NFT INFO MOBILE RESPONSIVE CODES STAR */
@@ -724,10 +805,32 @@
     .left {
         display: flex;
         flex-direction: column;
-       align-items: flex-start;
-       padding: 0px 45px;
+        align-items: flex-start;
+        padding: 0px 45px;
     }
 
+
+    .left>a {
+        display: none;
+    }
+
+    .mobile-btn-ntf-info {
+        display: flex;
+    }
+
+    .mobile-btn-ntf-info>a {
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 20px 100px;
+        font-family: WorkSansRegular;
+        color: #2B2B2B;
+        display: inline-block;
+        margin-top: 30px;
+    }
+
+    .mobile-btn-ntf-info a>i {
+        color: #A259FF;
+    }
 
     .how-it-works-card-details {
         width: 315px;
@@ -767,10 +870,36 @@
     }
 
 
+    .mobile-footer-input-box-btn {
+        margin-top: 24px;
+        display: flex;
+        justify-content: center;
+        width: 315px;
+        height: 46px;
+        background-color: #A259FF;
+        border-radius: 20px;
+        margin-bottom: 30px;
+    }
+
+    .mobile-footer-input-box-btn>a {
+        display: flex;
+        align-items: center;
+        font-family: WorkSansRegular;
+        color: #fff;
+    }
+
+    .mobile-footer-input-box-btn a>i {
+        margin-right: 10px;
+    }
+
+
     footer {
         margin-top: 60%;
     }
 
+    footer .container {
+        width: 84%;
+    }
 
     .footer-input {
         width: 315px;
@@ -791,47 +920,67 @@
     .mobile-input-box-btn {
         width: 315px;
         margin-bottom: 30px;
+        display: flex;
     }
+
+
 
 
 
 
 
     /*  ************************************* CREATE ACCOUNT  MOBILE RESPONSIVE************************************************************* */
-    .section-create-account {
-        display: block;
-        text-align: center;
-    }
-
-    .create-account-item {
-        padding: 0px 0px 30px 0px;
-    }
-
-    .create-account-item>p {
-        margin-bottom: 30px;
-    }
-
-    .form-for-login>a {
-        padding: 15px 108px;
+    .section-create-account{
+        flex-direction: column;
     }
 
     .create-acc-image-placeholder {
-        width: 375px;
+        margin-right: 0;
+        width: 397px;
         height: 232px;
     }
-
-    .form-for-login {
+     
+    .create-account-item{
+        width: 315px;
+        height: 510px;
+        padding: 80px 0px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
         align-items: center;
     }
 
-    .create-account-item {
-        padding: 30px 0px 30px 0px;
-        height: 515px;
+    .form-for-login{
+        align-items: center;
     }
-
-
+    #footer-create-account{
+        margin-top: 25%;
+    }
+    
     /* 
     section:not(#top-creators) {
         display: none;
     } */
+
+    /*  ************************************* CONNECT WALLET  MOBILE RESPONSIVE************************************************************* */
+
+    .section-connect-wallet {
+        flex-direction: column;
+    }
+
+    .section-wallet-img {
+        width: 375px;
+        height: 232px;
+    }
+
+    .connect-a-wallet{
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+    #footer{
+        margin-top: 10%;
+    }
 }
