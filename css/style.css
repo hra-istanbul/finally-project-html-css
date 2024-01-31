@@ -1374,9 +1374,15 @@ input::placeholder {
     margin-bottom: 5px;
 }
 
+#subhead{
+    border-bottom: 1px solid #3B3B3B;
+}
 
-/* 
-RANKING OAGE CODES START */
+
+
+/* ******************************************************************************************************************************************** */
+/* ******************************************************************************************************************************************** */
+/* **************************************************** RANKINGS PAGE********************************************************************* */
 .table-header {
     width: 100%;
     height: 46px;
@@ -1399,6 +1405,10 @@ RANKING OAGE CODES START */
     width: 160px;
 }
 
+
+.table-header-left{
+    margin-left: 11px;
+}
 .table-header-left>div {
     margin-right: 20px;
 }
@@ -1464,4 +1474,9 @@ RANKING OAGE CODES START */
 
 .change-item {
     color: #00AC4F;
+}
+
+
+.mobile-frame{
+   display: none;
 }

@@ -511,6 +511,35 @@
         width: 83%;
     }
 
+
+
+
+    /* ****************************************RANKINGS PAGGE TABLET RESPONSIVE CODE**************************************/
+    /* .table-nft{
+    display: none;
+  } */
+
+
+    .subhead {
+        padding: 25px 0pxs;
+    }
+
+    .table-header-right .table-nft {
+        display: none;
+    }
+
+    .ntf-item {
+        display: none;
+    }
+
+    .table-header-item {
+        width: 100px;
+    }
+
+    .rankings-details-item {
+        width: 100px;
+    }
+
 }
 
 /* ************************************************************************************************************************************* */
@@ -926,11 +955,8 @@
 
 
 
-
-
-
     /*  ************************************* CREATE ACCOUNT  MOBILE RESPONSIVE************************************************************* */
-    .section-create-account{
+    .section-create-account {
         flex-direction: column;
     }
 
@@ -939,8 +965,8 @@
         width: 397px;
         height: 232px;
     }
-     
-    .create-account-item{
+
+    .create-account-item {
         width: 315px;
         height: 510px;
         padding: 80px 0px;
@@ -950,13 +976,14 @@
         align-items: center;
     }
 
-    .form-for-login{
+    .form-for-login {
         align-items: center;
     }
-    #footer-create-account{
+
+    #footer-create-account {
         margin-top: 25%;
     }
-    
+
     /* 
     section:not(#top-creators) {
         display: none;
@@ -973,14 +1000,164 @@
         height: 232px;
     }
 
-    .connect-a-wallet{
+    .connect-a-wallet {
         margin-left: 0;
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 30px;
     }
-    #footer{
+
+    #footer {
         margin-top: 10%;
+    }
+
+    /* ************************************* MARKETPLACE MOBILE RESPONSIVE************************************************************* */
+    .search-form {
+        width: 315px;
+    }
+
+    #marketplace .container {
+        width: 84%;
+    }
+
+    .marketplace-card {
+        grid-template-columns: auto;
+    }
+
+    .marketplace-card-info {
+        width: 315px;
+    }
+
+    .nft-card-details:nth-child(6) {
+        display: none;
+    }
+
+    .nft-card-details:nth-child(7) {
+        display: none;
+    }
+
+    .nft-card-details:nth-child(8) {
+        display: none;
+    }
+
+    .nft-card-details:nth-child(9) {
+        display: none;
+    }
+
+    .nft-card-details:nth-child(10) {
+        display: none;
+    }
+
+    .nft-card-details:nth-child(11) {
+        display: none;
+    }
+
+    .nft-card-details:nth-child(12) {
+        display: none;
+    }
+
+    #marketplace-footer {
+        margin-top: 0;
+    }
+
+    .marketplace {
+        margin-bottom: 2px;
+    }
+
+    .marketplace-card {
+        margin-bottom: 0;
+    }
+
+    /*  ************************************* RANKINGS  MOBILE RESPONSIVE************************************************************* */
+    #rankings .container {
+        width: 83%;
+    }
+
+    .subhead {
+        padding: 25px 0px;
+    }
+
+    .frame {
+        display: none;
+    }
+
+    .mobile-frame {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 315px;
+    }
+
+
+    .nft-right>a {
+        margin-right: 0;
+    }
+
+    .nft-left>a {
+        margin-right: 0;
+    }
+
+    .table-header-right .change {
+        display: none;
+    }
+
+    .table-header {
+        width: 315px;
+        padding: 12px 14px;
+    }
+
+    .table-header-item {
+        width: 70px;
+    }
+
+    .table-header-left {
+        margin-left: 0;
+    }
+
+    .table-header-left>div {
+        margin-right: 12px;
+    }
+
+    .change-item {
+        display: none;
+    }
+
+    .rankings-img img {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }
+
+    .rankings-img>p {
+        font-size: 1rem;
+        font-family: WorkSansRegular;
+        font-weight: 200;
+    }
+
+    .number {
+        padding: 0;
+        margin-right: 7px;
+        background-color: #3B3B3B;
+    }
+
+    .table-item {
+        width: 315px;
+        padding: 12px 14px;
+        height: 50px;
+    }
+
+
+
+    .rankings-details-item {
+        width: 70px;
+    }
+
+    .volume-item {
+        font-size: 12px;
+    }
+
+    #rankings-footer {
+        margin-top: 0;
     }
 }
