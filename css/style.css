@@ -319,7 +319,6 @@
     font-size: 1.375rem;
     font-family: WorkSansRegular;
     color: #fff;
-    margin-bottom: 15px;
 }
 
 
@@ -531,7 +530,7 @@
     font-size: 1.375rem;
     font-family: WorkSansRegular;
     color: #fff;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     margin-top: 10px;
 }
 
@@ -629,11 +628,21 @@
     font-size: 0.875rem;
 }
 
+.ntf-price-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
 /* END DISCOVER MORE CARD CODES */
 /* END SECTION DISCOVER MORE  */
 
 /* ******************************************************************************************************************************************** */
 /* START SECTION NTF-INFO */
+
+#ntf-info .container {
+    margin: 0 auto;
+}
 
 .section-ntf-details {
     order: 100;
@@ -648,12 +657,14 @@
 
 .section-ntf-info {
     height: 100vh;
-    background-image: url(../img/bgImg.png);
+    /* background-image: url(../img/bgImg.png); */
+    background-image: url(../img/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 720px;
     object-fit: cover;
     background-size: cover;
+    background-position: center;
 }
 
 /* BG IMAGE CODES  */
@@ -691,9 +702,6 @@
     margin-bottom: 25px;
 }
 
-.section-ntf-info>.container {
-    display: none;
-}
 
 .left>a {
     background-color: #fff;
@@ -760,13 +768,22 @@
     font-family: SpaceMonoRegular;
 }
 
+.section-ntf {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.ntf-info>.container {
+    margin-bottom: 0;
+}
 
 /* AUCTIONTIMER CODES  END*/
 /* END SECTION NTF-INFO */
 
 /* ******************************************************************************************************************************************** */
 
-/* START CODES SECTION HOT IT WORKS */
+/* START CODES SECTION HOW IT WORKS */
 
 .section-how-it-works {
     padding: 80px 0px 40px 0px;
@@ -835,7 +852,7 @@
 /* END HOW OT WORKS CARD CODES */
 /* END CODES SECTION HOT IT WORKS */
 
-/* ******************************************************************************************************************************************** */
+/********************************************************************************************************************************************* */
 
 /* START CODES SECTION SUBSCRIBE WIDGET */
 
@@ -1087,11 +1104,15 @@ input::placeholder {
     display: none;
 }
 
+.marketplace-text {
+    width: 250px;
+}
+
 /* END FOOTER HOME-PAGE CODES */
 
 /* ******************************************************************************************************************************************** */
 /* ******************************************************************************************************************************************** */
-/* ****************************************************CREATE ACCOUNT PAGE********************************************************************* */
+/* ***************************************************?CREATE ACCOUNT PAGE********************************************************************* */
 
 /* START CREATE ACCOUNT PAGE CODES */
 
@@ -1103,7 +1124,7 @@ input::placeholder {
 
 .create-acc-image-placeholder {
     /* width: 680px; */
-   width: 700px;
+    width: 700px;
     height: 700px;
     margin-right: 80px;
 }
@@ -1135,7 +1156,7 @@ input::placeholder {
     margin-bottom: 40px;
 }
 
-.login-items{
+.login-items {
     width: 320px;
     height: 46px;
     background-color: #fff;
@@ -1147,17 +1168,17 @@ input::placeholder {
     align-items: center;
 }
 
-.login-items>i{
+.login-items>i {
     color: #BDBDBD;
     font-size: 20px;
 }
 
-.login-items>a{
+.login-items>a {
     color: #fff;
     font-family: WorkSansRegular;
 }
 
-.button-a{
+.button-a {
     background-color: #A259FF;
 }
 
@@ -1169,7 +1190,7 @@ input::placeholder {
 
 /* ******************************************************************************************************************************************** */
 /* ******************************************************************************************************************************************** */
-/* ****************************************************CONNECT WALLET PAGE********************************************************************* */
+/* ***************************************************?CONNECT WALLET PAGE********************************************************************* */
 
 /* START CONNECT WALLET SECTION CODES */
 
@@ -1240,7 +1261,7 @@ input::placeholder {
 
 /* ******************************************************************************************************************************************** */
 /* ******************************************************************************************************************************************** */
-/* ****************************************************MARKETPLACE PAGE********************************************************************* */
+/* ****************************************************?MARKETPLACE PAGE********************************************************************* */
 
 /* START MARKETPLACE PAGE CODES */
 /* START SECTION SUBHEAD CODES */
@@ -1302,7 +1323,7 @@ input::placeholder {
 
 
 .nft-left,
-.nft-right {
+.nft-right{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1315,7 +1336,7 @@ input::placeholder {
     border-bottom: 3px solid #858584;
 }
 
-.nft-left>a {
+.nft-left>a{
     color: #fff;
     font-family: WorkSansRegular;
     font-weight: 600;
@@ -1374,7 +1395,7 @@ input::placeholder {
     margin-bottom: 5px;
 }
 
-#subhead{
+#subhead {
     border-bottom: 1px solid #3B3B3B;
 }
 
@@ -1382,7 +1403,7 @@ input::placeholder {
 
 /* ******************************************************************************************************************************************** */
 /* ******************************************************************************************************************************************** */
-/* **************************************************** RANKINGS PAGE********************************************************************* */
+/* ****************************************************?RANKINGS PAGE********************************************************************* */
 .table-header {
     width: 100%;
     height: 46px;
@@ -1406,9 +1427,10 @@ input::placeholder {
 }
 
 
-.table-header-left{
+.table-header-left {
     margin-left: 11px;
 }
+
 .table-header-left>div {
     margin-right: 20px;
 }
@@ -1477,6 +1499,18 @@ input::placeholder {
 }
 
 
-.mobile-frame{
-   display: none;
+.mobile-frame {
+    display: none;
+}
+
+.number-rankings {
+    width: 30px;
+    height: 30px;
+    background-color: #2B2B2B;
+    border-radius: 100%;
+    text-align: center;
+    color: #858584;
+    font-family: SpaceMonoRegular;
+    padding: 3px;
+    margin-right: 15px;
 }

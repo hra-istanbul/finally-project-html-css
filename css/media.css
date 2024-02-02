@@ -1,11 +1,10 @@
 /* ************************************************************************************************************************************* */
 
-/* Tablet codes */
+/* ?........................................................................................................................TABLET CODES START */
 
 @media only screen and (max-width:836px) {
 
-    /*  ********************************************** HOME PAGE  TABLET RESPONSIVE************************************************************* */
-
+    /*  *********************************************!HOME PAGE  TABLET RESPONSIVE************************************************************* */
     .container {
         width: 80%;
         margin: auto;
@@ -21,6 +20,8 @@
     }
 
     /* HEADER RESPONSIVE CODES END */
+
+
 
     /* HERO SECTION RESPONSIVE CODES START */
     .hero-second-image {
@@ -59,6 +60,8 @@
 
     /* HERO SECTION RESPONSIVE CODES END */
 
+
+
     /* SECTION TRENDING COLLECTION RESPONSVIE CODES START */
     .section-trending-collection>h2 {
         font-size: 1.75rem;
@@ -82,6 +85,7 @@
     /* SECTION TRENDING COLLECTION RESPONSVIE CODES END */
 
 
+
     /* SECTION TOP CREATORS RESPONSVIE CODES START */
     .section-top-creators>h2 {
         font-size: 1.75rem;
@@ -103,7 +107,6 @@
     }
 
     /* AVATAR CARD */
-
     .artist-card {
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
@@ -134,6 +137,10 @@
         text-align: start;
     }
 
+    .total-sales {
+        margin-top: 10px;
+    }
+
     .artist-card-details:nth-child(7) {
         display: none;
     }
@@ -160,6 +167,8 @@
 
 
     /* SECTION TOP CREATORS RESPONSVIE CODES END */
+
+
 
     /* SECTION BROWSE CATEGORIES RESPONSIVE CODE START */
     .section-browse-categories>h2 {
@@ -193,26 +202,35 @@
     .category-name {
         width: 150px;
         height: 66px;
+        padding: 20px 25px;
     }
+
+    .fifth,
+    .sixth,
+    .seventh,
+    .eightth {
+        height: 80px;
+    }
+
 
     .category-card {
         gap: 100px 30px;
     }
 
-    .category-name {
-        padding: 20px 25px;
-    }
 
     .category-name>p {
         font-size: 1rem;
     }
 
-    /* .category-card-details:nth-child(5) {} */
-
     /* SECTION BROWSE CATEGORIES RESPONSIVE CODE END */
 
 
+
+
     /* SECTION DISCOVER MORE NFT RESPONSIVE CODE START */
+    #discover-more .container {
+        width: 83%;
+    }
 
     .section-discover-more>h2 {
         font-size: 1.75rem;
@@ -246,6 +264,7 @@
     /* SECTION DISCOVER MORE NFT RESPONSIVE CODE END */
 
 
+
     /* SECTION  NFT INFO  RESPONSIVE CODE START */
     .section-ntf-info {
         width: 100%;
@@ -259,19 +278,18 @@
     }
 
     .ntf-info-user {
-        width: 33%;
+        width: 38%;
     }
 
-    .ntf-timer {
-        justify-content: space-evenly;
+    .ntf-timer>div p {
+        font-size: 2rem;
     }
 
     /* SECTION  NFT INFO  RESPONSIVE CODE END */
 
 
+
     /* SECTION  HOW IT WORKS RESPONSIVE CODE START */
-
-
     .section-how-it-works>h2 {
         font-size: 1.75rem;
     }
@@ -304,6 +322,7 @@
     }
 
     /* SECTION  HOW IT WORKS RESPONSIVE CODE END */
+
 
 
 
@@ -373,6 +392,8 @@
     /* SECTION  SUBSCRIBE WIDGET RESPONSIVE CODE END */
 
 
+
+
     /* FOOTER  HOME PAGE RESPONSIVE CODE START */
 
     .footers-marketplace {
@@ -409,15 +430,15 @@
         margin-bottom: 49px;
     }
 
-    .mobile-input-box-btn {
-        display: none;
+    .marketplace-text {
+        width: 100%;
     }
 
     /* FOOTER HOME PAGE TABLET RESPONSIVE END */
 
 
 
-    /*  ***************************************** CREATE ACCOUNT  TABLET RESPONSIVE************************************************************* */
+    /*  ****************************************!CREATE ACCOUNT  TABLET RESPONSIVE************************************************************* */
     .create-acc-image-placeholder {
         width: 397px;
         height: 615px;
@@ -445,7 +466,7 @@
     }
 
 
-    /*  ***************************************** CONNECT WALLET  TABLET RESPONSIVE************************************************************* */
+    /*  ****************************************!CONNECT WALLET  TABLET RESPONSIVE************************************************************* */
 
     .section-wallet-img {
         width: 397px;
@@ -471,7 +492,7 @@
         margin-left: 60px;
     }
 
-    /* ****************************************MARKETPLACE PAGGE TABLET RESPONSIVE CODE********************************************** */
+    /* ****************************************!MARKETPLACE PAGGE TABLET RESPONSIVE CODE******************************************************* */
 
     .subhead {
         padding: 0px 0px 60px 0px;
@@ -512,14 +533,7 @@
     }
 
 
-
-
-    /* ****************************************RANKINGS PAGGE TABLET RESPONSIVE CODE**************************************/
-    /* .table-nft{
-    display: none;
-  } */
-
-
+    /* ****************************************!RANKINGS PAGGE TABLET RESPONSIVE CODE************************************************************/
     .subhead {
         padding: 25px 0pxs;
     }
@@ -540,15 +554,27 @@
         width: 100px;
     }
 
+    .number-rankings {
+        background-color: #3B3B3B;
+    }
 }
 
-/* ************************************************************************************************************************************* */
+/* ?........................................................................................................................TABLET CODES END */
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width:377px) {
 
-    /*  ******************************************* HOME PAGE MOBILE RESPONSIVE************************************************************* */
+    /*  **********************************************!HOME PAGE MOBILE RESPONSIVE************************************************************* */
 
     /* HEADER MOBILE RESPONSIVE CODES START */
-
     .header {
         padding: 15px 30px;
     }
@@ -558,6 +584,7 @@
     }
 
     /* SECTION HERO MOBILE CODE */
+
     #hero {
         display: none;
     }
@@ -569,9 +596,7 @@
         width: 315px;
     }
 
-
     .section-trending-collection>p {
-        /* width: 330px; */
         text-transform: none;
     }
 
@@ -584,8 +609,6 @@
     }
 
     .collection-card {
-        /* width: 315px;
-        height: 315px; */
         width: 300px;
         height: 300px;
     }
@@ -659,7 +682,7 @@
     }
 
     .total-sales {
-        margin-top: 10px;
+        margin-top: 8px;
     }
 
     .total-sales>span {
@@ -671,6 +694,7 @@
     }
 
     /* SECTION TOP CREATORS MOBILE RESPONSIVE CODES END */
+
 
 
     /* SECTION HERO MOBILE RESPONSIVE CODE START */
@@ -762,6 +786,7 @@
     /* SECTION HERO MOBILE RESPONSIVE CODE END */
 
 
+
     /* SECTION BROWSE CATEGORIES MOBILE RESPONSIVE CODES START */
 
     .section-browse-categories>h2 {
@@ -774,6 +799,7 @@
     }
 
     /* SECTION BROWSE CATEGORIES MOBILE RESPONSIVE CODES END */
+
 
 
     /* SECTION DISCOVER MORE MOBILE RESPONSIVE CODES START */
@@ -809,13 +835,15 @@
 
     /* SECTION DISCOVER MORE MOBILE RESPONSIVE CODES END */
 
+
+
     /* SECTION NFT INFO MOBILE RESPONSIVE CODES STAR */
 
     .section-ntf-info {
         background-position: center;
     }
 
-    .section-ntf-details {
+    .section-ntf {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -835,7 +863,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        padding: 0px 45px;
+        padding: 0px 30px;
     }
 
 
@@ -875,7 +903,10 @@
         text-align: start;
     }
 
+
+
     /* SECTION NFT INFO MOBILE RESPONSIVE CODES END */
+
 
 
     /* SECTION SUBSCRIBE WIDGET RESPONSIVE CODES STAR */
@@ -897,7 +928,6 @@
         font-size: 1.875rem;
         margin-bottom: 10px;
     }
-
 
     .mobile-footer-input-box-btn {
         margin-top: 24px;
@@ -952,10 +982,14 @@
         display: flex;
     }
 
+    .marketplace-text {
+        width: 313px;
+    }
 
 
 
-    /*  ************************************* CREATE ACCOUNT  MOBILE RESPONSIVE************************************************************* */
+
+    /*  ****************************************!CREATE ACCOUNT  MOBILE RESPONSIVE************************************************************* */
     .section-create-account {
         flex-direction: column;
     }
@@ -989,7 +1023,7 @@
         display: none;
     } */
 
-    /*  ************************************* CONNECT WALLET  MOBILE RESPONSIVE************************************************************* */
+    /*  ****************************************!CONNECT WALLET  MOBILE RESPONSIVE************************************************************* */
 
     .section-connect-wallet {
         flex-direction: column;
@@ -1012,7 +1046,7 @@
         margin-top: 10%;
     }
 
-    /* ************************************* MARKETPLACE MOBILE RESPONSIVE************************************************************* */
+    /* *********************************************!MARKETPLACE MOBILE RESPONSIVE************************************************************* */
     .search-form {
         width: 315px;
     }
@@ -1069,7 +1103,11 @@
         margin-bottom: 0;
     }
 
-    /*  ************************************* RANKINGS  MOBILE RESPONSIVE************************************************************* */
+    .num {
+        display: none;
+    }
+
+    /*  **********************************************!RANKINGS  MOBILE RESPONSIVE************************************************************* */
     #rankings .container {
         width: 83%;
     }
@@ -1078,24 +1116,45 @@
         padding: 25px 0px;
     }
 
-    .frame {
-        display: none;
+    .mobile-frame {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 320px;
     }
 
-    .mobile-frame {
+    .nft-right-mobile>a {
+        margin-right: 0;
+    }
+
+    
+
+    .nft-left-mobile>a {
+        color: #fff;
+        font-family: WorkSansRegular;
+        font-weight: 600;
+        /* margin-right: 16px; */
+    }
+
+    .nft-right-mobile>a {
+        color: #858584;
+        font-family: WorkSansRegular;
+        font-weight: 600;
+        /* margin-right: 16px; */
+    }
+
+    .nft-left-mobile,
+    .nft-right-mobile {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 315px;
+        /* width: 340px; */
+        width: 50%;
+        height: 60px;
     }
 
-
-    .nft-right>a {
-        margin-right: 0;
-    }
-
-    .nft-left>a {
-        margin-right: 0;
+    .nft-left-mobile {
+        border-bottom: 3px solid #858584;
     }
 
     .table-header-right .change {
@@ -1105,6 +1164,7 @@
     .table-header {
         width: 315px;
         padding: 12px 14px;
+        margin-top: 35px;
     }
 
     .table-header-item {
@@ -1135,10 +1195,9 @@
         font-weight: 200;
     }
 
-    .number {
-        padding: 0;
-        margin-right: 7px;
+    .number-rankings {
         background-color: #3B3B3B;
+        width: 16px;
     }
 
     .table-item {
@@ -1146,8 +1205,6 @@
         padding: 12px 14px;
         height: 50px;
     }
-
-
 
     .rankings-details-item {
         width: 70px;
@@ -1160,4 +1217,15 @@
     #rankings-footer {
         margin-top: 0;
     }
+
+    .number {
+        width: 20px;
+        height: 20px;
+    }
+
+    .nft-left,
+    .nft-right {
+        display: none;
+    }
+
 }
