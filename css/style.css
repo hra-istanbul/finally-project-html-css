@@ -24,6 +24,10 @@
     align-items: center;
 }
 
+.header-item-list>li>a:hover {
+    color: #A259FF;
+}
+
 .header-first-item a i {
     font-size: 1.875rem;
     color: #A259FF;
@@ -47,6 +51,12 @@
     margin-right: 5px;
 }
 
+.sign-up:hover {
+    background-color: #fff;
+    color: #A259FF;
+}
+
+
 /* RESPONSIVE CODES HEADER */
 .burger-icon {
     display: none;
@@ -65,16 +75,13 @@
 .hero-section {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     padding: 80px 0px;
 }
 
 .hero-first-section {
-    /* width: 42%; */
     width: 50%;
     display: flex;
     flex-direction: column;
-    margin-top: 65px;
     margin-right: 40px;
     align-items: flex-start;
     justify-content: center;
@@ -100,7 +107,6 @@
     padding: 20px 35px;
     display: inline-block;
     border-radius: 10px;
-    /* margin-top: 30px; */
     margin-top: 20px;
     color: #fff;
     font-family: WorkSansMedium;
@@ -110,7 +116,6 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    /* margin-top: 30px; */
     margin-top: 20px;
 }
 
@@ -129,15 +134,11 @@
 
 .hero-second-section {
     width: 50%;
-    /* margin-left: 60px; */
-    /* margin-left: 30px;
-    position: relative; */
 }
 
 .hero-second-image {
     width: 516px;
     height: 400px;
-    /* position: relative; */
 }
 
 .hero-second-section img {
@@ -146,7 +147,6 @@
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     object-fit: cover;
-    /* display: flex; */
 }
 
 .card-info {
@@ -193,8 +193,6 @@
 /* START SECTION TRENDING COLLECTION */
 
 .section-trending-collection {
-    /* padding: 80px 70px; */
-    /* padding: 40px 80px 0px 80px; */
     margin-bottom: 40px;
     margin-top: 80px;
 }
@@ -219,7 +217,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 0px 50px 50px; */
 }
 
 .collection-card {
@@ -303,7 +300,6 @@
 
 /* START SECTION TOP CREATORS */
 .section-top-creators {
-    /* padding: 80px 80px 0px 80px; */
     padding: 80px 0px 0px 0px;
     margin-bottom: 40px;
 }
@@ -381,7 +377,6 @@
 }
 
 .artist-img>img {
-    /* width: 100%; */
     width: 120px;
     height: 120px;
     border-radius: 100%;
@@ -394,6 +389,7 @@
     font-weight: 600;
     color: #fff;
     line-height: 130%;
+    cursor: pointer;
 }
 
 .total-sales {
@@ -589,6 +585,7 @@
     font-family: WorkSansRegular;
     line-height: 140%;
     margin-bottom: 5px;
+    cursor: pointer;
 }
 
 .ntf-card-user {
@@ -707,9 +704,10 @@
     background-color: #fff;
     border-radius: 20px;
     padding: 20px 50px;
-    font-family: WorkSansRegular;
+    font-family: WorkSansMedium;
     color: #2B2B2B;
     display: inline-block;
+    font-weight: 600;
 }
 
 .left a>i {
@@ -840,6 +838,11 @@
     font-family: WorkSansRegular;
     font-size: 1.375rem;
     margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.card-text>h4:hover {
+    color: #A259FF;
 }
 
 .card-text>p {
@@ -999,6 +1002,12 @@ footer {
     margin-right: 10px;
 }
 
+.footer-icons>a>i:hover {
+    transform: rotate(360deg);
+    transition: 1.2s;
+    color: #A259FF;
+}
+
 .footer-list>h4 {
     font-family: SpaceMonoRegular;
     color: #fff;
@@ -1011,6 +1020,10 @@ footer {
     line-height: 30px;
     font-family: WorkSansRegular;
     font-size: 1rem;
+}
+
+.footer-list li a:hover {
+    color: #A259FF;
 }
 
 .subscribe {
@@ -1323,7 +1336,7 @@ input::placeholder {
 
 
 .nft-left,
-.nft-right{
+.nft-right {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1336,7 +1349,7 @@ input::placeholder {
     border-bottom: 3px solid #858584;
 }
 
-.nft-left>a{
+.nft-left>a {
     color: #fff;
     font-family: WorkSansRegular;
     font-weight: 600;
