@@ -448,7 +448,6 @@
 .category-card {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    /* gap: 25px 0px; */
     gap: 25px 25px;
     justify-content: space-around;
 
